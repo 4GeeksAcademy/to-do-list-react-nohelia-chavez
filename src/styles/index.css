@@ -1,11 +1,33 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body { background: #cce0fd; }
 
-*/
+.pastel-card {
+  background: linear-gradient(180deg, #ffffff, #cae8f7);
+  border: 1px solid #90bffc;
+  border-radius: 1rem;
+}
+
+
+.pastel-input {
+  border-radius: 0.75rem 0 0 0.75rem;
+  border: 1px solid #dbeafe;
+}
+
+.pastel-list .list-group-item { border-color: #e5e7eb; }
+
+/* × oculta por defecto y visible en hover */
+.item-tarea .btn-x { opacity: 0; transition: opacity .5s ease; }
+.item-tarea:hover .btn-x { opacity: 1; }
+
+/* Toque redondeado al botón limpiar todo */
+.btn-outline-danger { border-radius: 0.75rem; }
+
+.first-title{
+  font-size: 2rem;
+  color: #7586e4; 
+}
+
+.añadir-btn{
+  background-color: #1636ee;
+  color: rgb(255, 255, 255);
+}
